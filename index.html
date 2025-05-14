@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Transform your photos into stunning Ghibli, Pixar, Anime, and more styles on premium tees and phone cases.">
+  <meta name="keywords" content="Toki Tide, AI streetwear, custom phone cases, anime style, premium fashion">
+  <meta name="author" content="Poornesh Gorrela">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Toki Tide – Premium AI Streetwear & Phone Cases">
+  <meta property="og:description" content="Transform your photos into stunning Ghibli, Pixar, Anime, and more styles on premium tees and phone cases.">
+  <meta property="og:image" content="https://i.imgur.com/sUQWgme.jpeg">
+  <meta property="og:url" content="https://tokitide.com">
+  <title>Toki Tide – Premium AI Streetwear & Phone Cases</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" onload="this.media='all'" onerror="this.href='swiper.css'" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" />
+  <link rel="preload" href="logo.png" as="image">
+  <link rel="preload" href="demo1.png" as="image">
+  <link rel="preload" href="case1.png" as="image">
+</head>
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <img src="logo.png" alt="Toki Tide Logo" class="preloader-logo" onerror="this.src='https://via.placeholder.com/80?text=Logo'" />
+    <div class="progress-bar">
+      <div class="progress"></div>
+    </div>
+  </div>
+
+  <!-- Page Transition -->
+  <div class="page-transition"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <img src="logo.png" alt="Toki Tide Logo" class="nav-logo" onerror="this.src='https://via.placeholder.com/60?text=Logo'"/>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#models" class="nav-link">T-Shirts</a></li>
+        <li><a href="#phone-cases" class="nav-link">Phone Cases</a></li>
+        <li><a href="#order" class="nav-link">Order</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#reviews" class="nav-link">Reviews</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" role="button" aria-label="Toggle menu" aria-expanded="false">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+      <h1 class="brand-name">Toki Tide</h1>
+      <p class="tagline">Your vibe, reimagined in iconic styles.</p>
+      <p class="sub-tagline">Custom AI-powered streetwear & phone cases.</p>
+      <a href="#models" class="btn primary">Discover Now</a>
+    </div>
+  </header>
+
+  <!-- Info Section -->
+  <section class="section info fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Crafted for You</h2>
+    <p class="info-text">
+      <strong>Toki Tide</strong> uses cutting-edge AI to transform your photos into breathtaking designs in styles like <strong>Ghibli</strong>, <strong>Pixar</strong>, <strong>Anime</strong>, <strong>Spider-Verse</strong>, and more—printed on premium streetwear and durable phone cases.
+    </p>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="section how-it-works fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Your Design, Your Way</h2>
+    <div class="steps-container">
+      <div class="step-card pop-in" data-stagger="1">
+        <div class="step-icon">📸</div>
+        <h3 class="step-title">Upload</h3>
+        <p class="step-desc">Share your favorite high-quality photo.</p>
+      </div>
+      <div class="step-card pop-in" data-stagger="2">
+        <div class="step-icon">🎨</div>
+        <h3 class="step-title">Choose Style</h3>
+        <p class="step-desc">Pick from Anime, Pixar, Ghibli, or other unique styles.</p>
+      </div>
+      <div class="step-card pop-in" data-stagger="3">
+        <div class="step-icon">📱/👕</div>
+        <h3 class="step-title">Select Product</h3>
+        <p class="step-desc">Opt for premium tees or sturdy phone cases.</p>
+      </div>
+      <div class="step-card pop-in" data-stagger="4">
+        <div class="step-icon">🚚</div>
+        <h3 class="step-title">Delivered</h3>
+        <p class="step-desc">Receive your custom creation at your doorstep.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Model Showcase Section -->
+  <section id="models" class="section slider-section fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">T-Shirt Collection</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="demo1.png" alt="Pixar Style T-Shirt showing a vibrant character design" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=T-Shirt'" />
+            <div class="model-info">
+              <p>Pixar Style</p>
+              <button class="like-btn" aria-label="Like Pixar Style T-Shirt">❤</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="demo2.png" alt="Anime Style T-Shirt with a dynamic character illustration" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=T-Shirt'" />
+            <div class="model-info">
+              <p>Anime Style</p>
+              <button class="like-btn" aria-label="Like Anime Style T-Shirt">❤</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="demo3.png" alt="Ghibli Style T-Shirt featuring a serene nature scene" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=T-Shirt'" />
+            <div class="model-info">
+              <p>Ghibli Style</p>
+              <button class="like-btn" aria-label="Like Ghibli Style T-Shirt">❤</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Phone Cases Section -->
+  <section id="phone-cases" class="section slider-section fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Phone Case Collection</h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="case1.png" alt="Ghibli Style Phone Case with a whimsical forest design" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=Phone+Case'" />
+            <div class="model-info">
+              <p>Ghibli Style</p>
+              <button class="like-btn" aria-label="Like Ghibli Phone Case">❤</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="case2.png" alt="Pixar Style Phone Case with a colorful character" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=Phone+Case'" />
+            <div class="model-info">
+              <p>Pixar Style</p>
+              <button class="like-btn" aria-label="Like Pixar Phone Case">❤</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="case3.png" alt="Anime Style Phone Case with a bold character portrait" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=Phone+Case'" />
+            <div class="model-info">
+              <p>Anime Style</p>
+              <button class="like-btn" aria-label="Like Anime Phone Case">❤</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="case4.png" alt="Watercolor Style Phone Case with a soft abstract pattern" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=Phone+Case'" />
+            <div class="model-info">
+              <p>Watercolor Style</p>
+              <button class="like-btn" aria-label="Like Watercolor Phone Case">❤</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="model-card pop-in">
+            <img src="case5.png" alt="Spider-Verse Style Phone Case with a comic book aesthetic" class="model-img" loading="lazy" onerror="this.src='https://via.placeholder.com/320x450?text=Phone+Case'" />
+            <div class="model-info">
+              <p>Spider-Verse Style</p>
+              <button class="like-btn" aria-label="Like Spider-Verse Phone Case">❤</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Order Section -->
+  <section id="order" class="section dark fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Own Your Style</h2>
+    <p class="order-text">
+      Create a one-of-a-kind piece with your photo transformed into a unique design. Add an optional Instagram QR code on the back to share your vibe.<br><br>
+      • 🔗 Ideal for creators, artists, and trendsetters.<br>
+      • 🧵 Premium heavyweight cotton tees or durable phone cases.<br>
+      • 🚀 Fast, reliable delivery to your door.
+    </p>
+    <a href="https://forms.gle/8PS362xLbGS5XDcm6" class="btn secondary" target="_blank" data-order-btn>Order Now</a>
+    <div class="trust-badges">
+      <img src="secure-checkout.png" alt="Secure Checkout Badge" class="badge" loading="lazy" onerror="this.src='https://via.placeholder.com/40?text=Badge'" />
+      <img src="fast-delivery.png" alt="Fast Delivery Badge" class="badge" loading="lazy" onerror="this.src='https://via.placeholder.com/40?text=Badge'" />
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Common Queries</h2>
+    <div class="faq-container">
+      <details class="faq-item">
+        <summary class="faq-question">How do I upload my photo?</summary>
+        <p class="faq-answer">After clicking "Order Now," you'll be directed to a form where you can upload a high-resolution photo. Ensure the image is clear and well-lit for the best results.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">What styles can I choose from?</summary>
+        <p class="faq-answer">You can select from Ghibli, Pixar, Anime, Spider-Verse, Watercolor, and more. Preview options are available during the order process.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">What is the delivery time?</summary>
+        <p class="faq-answer">Delivery typically takes 7-14 business days, depending on your location. Expedited shipping options are available at checkout.</p>
+      </details>
+      <details class="faq-item">
+        <summary class="faq-question">Are phone cases available for all models?</summary>
+        <p class="faq-answer">We print on cases for most popular phone models, subject to availability. Specify your model in the order form, and we’ll confirm compatibility.</p>
+      </details>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="section slider-section fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">Customer Reviews</h2>
+    <div class="rating-summary">
+      <p><strong>4.8/5</strong> based on 200 reviews</p>
+      <div class="stars">★★★★★</div>
+    </div>
+    <div class="swiper-container reviews-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“The Anime-style T-shirt is stunning! The quality is top-notch, and the design came out exactly as I imagined.”</p>
+            <p class="review-author">– Priya S., Mumbai</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★☆</div>
+            <p class="review-text">“Loved my Ghibli phone case! Delivery took a bit, but the result was worth it.”</p>
+            <p class="review-author">– Arjun K., Delhi</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“The Pixar design on my tee is vibrant and unique. Got so many compliments!”</p>
+            <p class="review-author">– Sneha R., Bangalore</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">“Super easy process and fast shipping. My Spider-Verse case is a head-turner!”</p>
+            <p class="review-author">– Rohan M., Hyderabad</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <!-- Replace with your actual Google Forms review link -->
+    <a href="#" class="btn secondary" target="_blank">Submit Your Review</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section fade-in">
+    <div class="section-divider"></div>
+    <h2 class="section-title">About Toki Tide</h2>
+    <p class="about-text">
+      Toki Tide is where technology meets self-expression. Using advanced AI, we craft wearable art that reflects your unique story. From design to delivery, every piece is a testament to creativity and individuality.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 <strong>Toki Tide</strong> — by <strong>Poornesh Gorrela</strong>, NIT Srinagar</p>
+    <p>Contact: <a href="mailto:poorneshpavansai992@gmail.com">poorneshpavansai992@gmail.com</a></p>
+    <p>Follow 
+      <a href="https://instagram.com/toki.tide" target="_blank">
+        <img src="instagram-icon.png" alt="Instagram icon" style="height:20px;vertical-align:middle;" onerror="this.src='https://via.placeholder.com/20?text=IG'" /> @toki.tide
+      </a>
+    </p>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <a href="#home" class="back-to-top" title="Back to top" aria-label="Back to top">↑</a>
+  <a href="https://forms.gle/8PS362xLbGS5XDcm6" class="order-fab" target="_blank" aria-label="Order now" data-order-btn>🛒</a>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script defer src="script.js"></script>
+</body>
+</html>
