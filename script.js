@@ -57,7 +57,7 @@ document.querySelectorAll('.like-btn').forEach(btn => {
     if (isLiked && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       const particles = ['particle-1', 'particle-2', 'particle-3'];
       particles.forEach(particleClass => {
-        if (!btn.querySelector(`.${particleClass}`)) {
+        if (!btn.querySelector(.${particleClass})) {
           const particle = document.createElement('span');
           particle.className = particleClass;
           btn.appendChild(particle);
